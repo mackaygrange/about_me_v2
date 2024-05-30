@@ -1,0 +1,149 @@
+:root
+{
+    --bg-transparent: rgba(130, 137, 110, 0.5);
+    --olive: #82896E;
+    --beige: #DDCBB7;
+    --forest: #264025;
+    --wood: #7B4B36;
+    --deep-brown: #360000;
+}
+
+.info
+{
+    background-color: var(--beige);
+    color: var(--deep-brown);
+
+    border-radius: 25px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--wood);
+
+    margin-top: none;
+    margin-bottom: 10px;
+}
+
+.poem
+{
+    text-align: center;
+    font-style: italic;
+    font-style: light;
+    text-indent: 0em;
+}
+
+body 
+{
+    background-image: url("assets/tile.png");
+    background-repeat: repeat;
+    background-color: var(--bg-transparent);
+    background-blend-mode: screen;
+    margin: 30px;
+    font-family: Georgia, serif;
+    font-size: 12pt;
+    color: var(--deep-brown);
+}
+
+div
+{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: none;
+    padding: 5px;
+    width: auto;
+    display: block;
+}
+
+p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-indent: 2em;
+}
+
+ol, ul
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img
+{
+    padding: none;
+    margin: auto;
+    width: auto;
+    display: block;
+
+    border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--wood);
+
+}
+
+h1
+{
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    background-color: var(--beige);
+    font-size: 40px;
+    text-decoration: none;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: var(--wood);
+    text-align: center;
+}
+
+h2
+{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table
+{
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+table > caption
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: var(--wood);
+    border-width: 1px;
+}
+
+th, td
+{
+    margin: auto;
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
